@@ -16,7 +16,7 @@ const env = import.meta.env;
       <img :src="viteLogo" class="vite" alt="Vite logo" />
     </div>
     <div>
-      <h1>Get started with this: {{ env.VITE_FRAMEWORK }} on {{ env.VITE_HOSTING }}</h1>
+      <h1>Get started with: {{ env.VITE_FRAMEWORK }} on {{ env.VITE_HOSTING }}</h1>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
     <button type="button" class="counter" @click="count++">
